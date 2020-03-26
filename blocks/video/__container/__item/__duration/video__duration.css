@@ -1,0 +1,32 @@
+.video__duration {
+    bottom: 144px;
+    left: 30px;
+    width: 15%; 
+    z-index: 6;
+    position: absolute;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+
+    color: #FFFFFF;
+
+    position: absolute;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__duration {
+        bottom: 148px;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__duration {
+        bottom: 108px;
+        left: 23px;
+    }
+}

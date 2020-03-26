@@ -1,0 +1,26 @@
+@import url('./__fact/intro__fact.css');
+
+.intro__facts {
+	  width: 300px;
+		margin-top: 1em;
+}
+
+@media screen and (max-width:1024px) {
+    .intro__facts {
+        max-width: 100%;
+        min-width: 288px;
+        width: 91%;
+        
+        margin: calc(1em + 5px) 0px 0px 2px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__facts {
+        max-width: 100%;
+        min-width: 288px;
+        width: 91%;
+        
+        margin: calc(1em + 12px) 0px 0px 0px;
+    }
+}

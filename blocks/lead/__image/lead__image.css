@@ -1,0 +1,28 @@
+@import url('./__image-photo/lead__image-photo.css');
+
+
+.lead__image {    
+    margin: 71px 0 0 0;   
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 100%;
+        min-width: 320px;
+   }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__image {
+        margin: 36px 0 0 0;
+   }
+}
+
+@media screen and (max-width: 385px) {
+    .lead__image {
+        height: 218px;
+        
+        margin: 36px 0 0 0;
+   }
+}
+

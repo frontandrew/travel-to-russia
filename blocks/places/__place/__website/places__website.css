@@ -1,0 +1,22 @@
+@import url('./__url-heading/places__url-heading.css');
+@import url('./__url/places__url.css');
+
+.places__website {
+	display: flex;
+	flex-direction: column;
+	align-self: end;
+	
+	/*! max-width: 345px; */
+}
+
+@media screen and (max-width:1024px) {
+    .places__website {
+        margin: 0 0 3px 1px;  
+    }
+}
+
+@media screen and (max-width:425px) {
+    .places__website {
+        display: none;  
+    }
+}

@@ -1,0 +1,55 @@
+@import url('./_one-line/places__title_one-line.css');
+
+.places__title {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 0.9;
+	color: #FFFFFF;
+	max-width: 460px;
+	
+	padding: 0px 0px 0px 0px;
+	
+}
+
+@media screen and (max-width:1024px) {
+	.places__title {
+			font-family: Inter;
+			font-style: normal;
+			font-weight: 900;
+			font-size: 72px;
+			/*line-height: 65px;*/
+			line-height: 0.9;
+			color: #FFFFFF;
+			max-width: 460px;
+
+			padding: 0px 0px 0px 0px;
+
+		}
+}
+
+@media screen and (max-width:768px) {
+	.places__title {
+			font-size: 3.5em;
+			line-height: 1.07;
+			color: #FFFFFF;
+			max-width: 5.4em;
+
+			padding: 0px 0px 0px 0px;
+
+			align-self: end;
+		}
+}
+
+@media screen and (max-width: 425px) {
+	.places__title {
+			font-size: 32px;
+      line-height: 35px;
+			color: #FFFFFF;
+			max-width: 5.4em;
+
+			padding: 0px 0px 0px 0px;
+
+		}
+}

@@ -1,0 +1,22 @@
+@import url('./__content-title/video__content-title.css');
+@import url('./__content-subtitle/video__content-subtitle.css');
+@import url('./__container/video__container.css');
+
+.video {
+	width: 82%;
+	display: flex;
+	flex-direction: column;
+	z-index: 10;
+	padding: 110px 0px 0px 1px;
+	align-items: center;
+	
+	font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+	.video {
+		font-size: 7px;
+		padding: 109px 0px 0px 1px;
+  }
+}
+

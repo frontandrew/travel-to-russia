@@ -1,0 +1,36 @@
+.video__content-title {
+   max-width: 100%;
+    min-width: 288px;
+    width: 11em;
+
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 6em;
+		line-height: 1.1;
+    text-align: center;
+	  /*! letter-spacing: 0em; */
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+	.video__content-title {
+		line-height: 1.06;
+		margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+	.video__content-title {
+		margin-top: 3px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+	.video__content-title {
+		margin-top: 3px;
+		
+		font-size: 32px;
+    line-height: 35px;
+  }
+}

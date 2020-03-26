@@ -1,0 +1,21 @@
+@import url('./__image/cover__image.css');
+@import url('./__blackout/cover__blackout.css');
+
+.cover__cover-bg {
+    display: flex;
+    position: relative;
+    min-width: 288px;
+    width: 100%;
+    max-width: 1184px;
+    
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__cover-bg {
+		
+    /*! max-height: 150%; */
+    /*! height: 165%; */
+    /*! min-height: 100px; */
+	}
+}

@@ -1,0 +1,34 @@
+.places__image {
+	object-fit:  cover;
+  background-position: center;
+	
+	height: 101.2%;
+	width: 100%;
+	max-width: 460px;
+	min-width: 10px;
+}
+
+@media screen and (max-width:1024px) {
+    .places__image {
+			  object-fit:  fill;
+			  
+        height: 100%;
+	      width: 96%;
+        
+        margin: 0px 0px 0px 2px;
+	}
+
+}
+
+@media screen and (max-width:768px) {
+    .places__image {
+			object-fit:  fill;
+			  
+			height: 340px;
+			width: 100%;
+
+			margin: 0px 0px 0px 0px;
+			
+	}
+
+}

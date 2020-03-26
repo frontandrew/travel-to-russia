@@ -1,0 +1,25 @@
+.lead__image-photo {
+	display: flex;    
+	max-width: 100%;
+  min-width:288px;
+		
+}
+
+@media screen and (max-width: 1024px) {
+	.lead__image-photo {		
+		width: 928px;
+		height: 554px;
+  }	
+}
+
+@media screen and (max-width: 768px) {
+	.lead__image-photo {		
+		width: 768px;
+		height: 97%;
+  }	
+}
+
+
+
+	
+	

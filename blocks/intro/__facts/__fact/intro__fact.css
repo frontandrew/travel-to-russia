@@ -1,0 +1,13 @@
+@import url('./__fact_numbers/intro__fact_numbers.css');
+
+.intro__fact {
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}

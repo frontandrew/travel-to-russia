@@ -1,0 +1,35 @@
+@import url("./__icon/video__icon.css");
+@import url("./__duration/video__duration.css");
+@import url("./__title/video__title.css");
+@import url("./__subtitle/video__subtitle.css");
+@import url("./__item-bg/video__item-bg.css");
+
+.video__item {
+	
+	width: 100%;
+	min-width: 200px;
+	
+	max-height: 110%;	
+	
+	position: relative;	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	
+	border-radius: 6px;
+	overflow: hidden;	
+}
+
+@media screen and (max-width: 1024px) {
+    .video__item {
+			height: 288px;
+							
+	}
+}
+
+@media screen and (max-width: 768px) {
+    .video__item {
+			height: 206px;
+							
+	}
+}

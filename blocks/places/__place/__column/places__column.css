@@ -1,0 +1,8 @@
+@import url('./__paragraph/places__paragraph.css');
+
+.places__column {
+   width: 100%;
+   max-width: 100%;
+   min-width: 1px; 
+}
+

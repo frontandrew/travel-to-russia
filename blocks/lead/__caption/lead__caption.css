@@ -1,0 +1,42 @@
+.lead__caption {
+    width: 979px;
+    max-width: 100%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 10px 7px 0px 0px;
+
+    color: #FFFFFF;    
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__caption {
+        max-width: 1024px;
+        min-width: 768px;
+        width: 90%;
+        
+        margin: 16px 7px 0px 0px;
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption {        
+        min-width: 1%;
+        width: 93%;
+        
+        margin:3px 7px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__caption {
+        width: calc(100% - 19px*2);
+        
+        margin:1px 7px 0px 0px;
+    }
+}

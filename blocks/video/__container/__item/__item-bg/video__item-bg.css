@@ -1,0 +1,8 @@
+@import url("./__blackout/video__blackout.css");
+@import url("./__image/video__image.css");
+
+.video__item-bg {
+    display: flex;
+    position: relative;
+    min-height: 250px;
+}

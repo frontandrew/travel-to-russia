@@ -1,0 +1,23 @@
+@import url('./__title/cover__title.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__cover-bg/cover__cover-bg.css');
+
+.cover {
+	margin: 95px 0 0 0;
+	align-items: center;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	font-size: 12px;	
+}
+
+.cover:hover > .image-hover {
+    opacity: 0.8;
+    background-color: black;
+}
+
+@media screen and (max-width: 1024px){
+    .cover {
+			margin: 104px 0 0 0;
+	}
+}

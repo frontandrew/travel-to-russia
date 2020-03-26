@@ -1,0 +1,41 @@
+.cover__image {
+    min-width: 320px;
+    max-width: 100%;
+    width: 100%;
+    
+    background-size: cover;
+    background-position: center;
+    max-height: 115%;
+    height: 594px;
+}
+
+@media screen and (max-width: 1024px){
+    .cover__image {
+        
+	    max-height: 150%;
+        height: 562px;
+        
+	}
+}
+
+@media screen and (max-width: 768px){
+    .cover__image {
+        height: 502px;
+        
+	}
+}
+
+@media screen and (max-width: 580px){
+    .cover__image {
+        height: 410px;
+        
+	}
+}
+
+@media screen and (max-width: 425px){
+    .cover__image {
+        height: 272px;
+        
+	}
+}
+

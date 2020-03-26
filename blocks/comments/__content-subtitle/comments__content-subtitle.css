@@ -1,0 +1,31 @@
+.comments__content-subtitle {
+    width: 660px;
+    max-width: 100%;
+    min-width: 288px;
+    margin: 41px 0 0px 0px;
+
+    font-family: Inter;
+    font-size: 1.67em;
+    line-height: 1.49;
+    text-align: center;
+    font-weight: normal;
+
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px){
+    .comments__content-subtitle {
+        width: 652px;
+        margin: 37px 0 0px 0px;
+        
+        font-size: 1.6em;
+		line-height: 1.49;
+        letter-spacing: .022em;
+	}
+}
+
+@media screen and (max-width: 768px){
+    .comments__content-subtitle {
+        margin: 31px 0 0px 0px;       
+	}
+}
